@@ -22,6 +22,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
+key = "name"
+value = "collin"
   hash_para = {
     key: value
   }
